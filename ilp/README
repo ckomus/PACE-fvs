@@ -1,0 +1,8 @@
+# ILP for solving Feedback Vertex Set
+# Copyright (C) 2014  Falk Hüffner
+
+To run the ILP you will need to install either CPLEX or Gurobi. The path to either
+installation plus the version number must be added in the corresponding line in the Makefile.
+
+Further variables that need to be set in the Makefile are whether or not CPLEX and GUROBI are installed, the
+locations of the corresponding programs and the local CPU architecture.
